@@ -32,8 +32,8 @@ dns:
       - +.youtube.com
   nameserver-policy: ~
 proxies:
-  - {name: 🇩🇪 免费-德国, server: v2.idamie.link, port: 22862, type: vmess, uuid: c0998221-e51d-46d4-afc9-273c26032e9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 免费-巴西, server: br1.idamie.link, port: 30311, type: vmess, uuid: 6e6c2642-67f5-491b-d3b6-aea85cbd37e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 免费-德国, server: v2.idamie.link, port: 22862, type: vmess, uuid: c0998221-e51d-46d4-afc9-273c26032e9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: false}
+  - {name: 🇧🇷 免费-巴西, server: br1.idamie.link, port: 30311, type: vmess, uuid: 6e6c2642-67f5-491b-d3b6-aea85cbd37e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: false}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
