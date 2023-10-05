@@ -33,7 +33,7 @@ dns:
   nameserver-policy: ~
 proxies:
   - {name: 🇩🇪 免费-德国, server: v2.idamie.link, port: 22862, type: vmess, uuid: a6e1d3ba-2385-4490-fb3e-7bf6643248bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 免费-巴西, server: br1.idamie.link, port: 30311, type: vmess, network: tcp, uuid: d78a6113-b2fb-4343-f83f-032a4a6ea877, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇷 免费-巴西, server: br1.idamie.link, port: 30311, type: vmess, uuid: d78a6113-b2fb-4343-f83f-032a4a6ea877, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
